@@ -1,4 +1,7 @@
 import React from "react";
+import "../Styles/index.css";
+import "../Styles/Contact.css";  // ✅ Correct for CSS
+import "../Styles/index.css";    // ✅ Correct for global styles
 
 const Contact = () => {
   return (
