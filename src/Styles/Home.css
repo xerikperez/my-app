@@ -33,7 +33,7 @@
     border-radius: 10px;
   }
   
-  /* Ensure grid text and images align well */
+  /* Ensure Grid2 text and images align well */
   @media (max-width: 768px) {
     .about-image {
       max-width: 200px;
