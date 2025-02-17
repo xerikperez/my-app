@@ -9,16 +9,17 @@ const Header = () => {
   return (
     <AppBar position="static">
       <Toolbar>
-        <Typography variant="h6" sx={{ flexGrow: 1 }}>
-          My Portfolio
-          
-        </Typography>
-        <Box 
+      <Box className="logo-container"
         component="img"
         src={logo}
         alt="Profile"
-        className="home-image"
+        
         />
+        <Typography variant="h5" sx={{ flexGrow: 1 }}>
+          My Portfolio
+          
+        </Typography>
+        
         <Button color="inherit" component={Link} to="/">Home</Button>
         <Button color="inherit" component={Link} to="/projects">Projects</Button>
         <Button color="inherit" component={Link} to="/contact">Contact</Button>

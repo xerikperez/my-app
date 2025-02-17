@@ -40,3 +40,42 @@
     }
   }
   
+
+  /* Projects Section */
+.projects-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* Project Card */
+.project-card {
+  padding: 16px;
+  text-align: center;
+  border-radius: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.project-card:hover {
+  transform: scale(1.05);
+}
+
+/* Project Image */
+.project-image {
+  width: 100%;
+  max-width: 250px;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+/* Project Title */
+.project-title {
+  margin-bottom: 8px;
+}
+
+/* Project Description */
+.project-description {
+  font-size: 14px;
+}
