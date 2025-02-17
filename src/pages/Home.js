@@ -30,9 +30,9 @@ const Home = () => {
           <Grid item xs={12} md={6}>
             <Paper className="about-text-box">
               <Typography variant="body1" color="text.secondary">
-                Originally from 🇪🇸 **Seville, Spain**, I have lived across 🇸🇪 **Sweden** and 🇵🇹 **Portugal**, 
-                embracing diverse cultures and experiences. Now settled in 🇺🇸 **Houston, Texas**, 
-                I am actively pursuing my passion for 💻 **software development** and 🧠 **technology**.
+                Originally from Seville, Spain, I have lived across Sweden and Portugal, 
+                embracing diverse cultures and experiences. Now settled in 🇺🇸 Houston, Texas, 
+                I am actively pursuing my passion for software development and technology.
               </Typography>
             </Paper>
           </Grid>
