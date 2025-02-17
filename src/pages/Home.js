@@ -30,9 +30,9 @@ const Home = () => {
           <Grid item xs={12} md={6}>
             <Paper className="about-text-box">
               <Typography variant="body1" color="text.secondary">
-                Originally from Seville, Spain, I have lived across Sweden and Portugal, 
-                embracing diverse cultures and experiences. Now settled in Houston, Texas, 
-                I am actively pursuing my passion for software development and technology.
+                Originally from 🇪🇸 **Seville, Spain**, I have lived across 🇸🇪 **Sweden** and 🇵🇹 **Portugal**, 
+                embracing diverse cultures and experiences. Now settled in 🇺🇸 **Houston, Texas**, 
+                I am actively pursuing my passion for 💻 **software development** and 🧠 **technology**.
               </Typography>
             </Paper>
           </Grid>
@@ -46,7 +46,7 @@ const Home = () => {
           {/* Second Section: Left - Image, Right - Text (Middle Image Fixed) */}
           <Grid item xs={12} md={6} sx={{ display: "flex", justifyContent: "center" }}>
             <Box component="img" 
-              src="https://i.pinimg.com/736x/2b/2e/3a/2b2e3ad8e1526c7cb8b713f4d7ac2ffd.jpg" 
+              src="https://i.pinimg.com/736x/a0/2c/4f/a02c4f6974df64b110bce07fb1f34f64.jpg" 
               alt="Tech Industry" 
               className="about-image" />
           </Grid>
