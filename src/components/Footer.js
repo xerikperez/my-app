@@ -1,10 +1,11 @@
 import React from "react";
+import { Box, Typography } from "@mui/material";
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-900 text-white text-center py-4">
-      <p>&copy; 2025 Erik Caceres Perez. All Rights Reserved.</p>
-    </footer>
+    <Box component="footer" sx={{ textAlign: "center", p: 2, bgcolor: "primary.main", color: "white" }}>
+      <Typography variant="body2">&copy; 2025 My Portfolio. All Rights Reserved.</Typography>
+    </Box>
   );
 };
 
