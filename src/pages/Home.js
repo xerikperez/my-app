@@ -1,8 +1,10 @@
 import React from "react";
-import { Container, Typography, Box, Grid, Paper, Button, Link } from "@mui/material";
+import { Container, Typography, Box, Grid, Paper, Button } from "@mui/material";
+import { Link } from "react-router-dom";
 import profileImage from "../assets/profile.jpg";
 import "../Styles/index.css";
 import "../Styles/Home.css";
+import Projects from "./Projects";
 
 const projects = [
     {
@@ -14,6 +16,7 @@ const projects = [
       title: "E-Commerce App",
       description: "An online store with full shopping cart functionality.",
       image: "https://via.placeholder.com/300", // Replace with your image
+      
     },
     {
       title: "Task Manager",
@@ -99,16 +102,21 @@ const Home = () => {
         <Grid container spacing={4} sx={{ mt: 2 }}>
             {projects.map((project, index) => (
                 <Grid item xs={12} md={4} key={index}>
-                    <Paper className="project-card">
-                    <Box component="img" src={project.image} alt={project.title} className="project-image" />
-                    <Typography variant="h6" fontWeight="bold" sx={{ mt: 2 }}>
-                        {project.title}
-                    </Typography>
-                    <Typography variant="body2" color="text.secondary">
-                        {project.description}
-                    </Typography>
+                  
+                    <Paper className="project-card" elevation={3} sx={{ padding: 2 }}>
+                    <Link to="/projects" style={{ textDecoration: "none", color: "inherit" }}>
+                            <Box component="img" src={project.image} alt={project.title} className="project-image"/>
+                            <Typography variant="h6" fontWeight="bold" sx={{ mt: 2 }}>
+                                {project.title}
+                            </Typography>
+                            <Typography variant="body2" color="text.secondary">
+                                {project.description}
+                            </Typography>
+                        </Link>
                     </Paper>
+                    
                 </Grid>
+                
                 ))}
         </Grid>
         
