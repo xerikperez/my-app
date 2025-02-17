@@ -1,5 +1,5 @@
 import React from "react";
-
+import "../Styles/index.css";
 const projects = [
   { title: "Portfolio Website", description: "A personal portfolio built with React and Tailwind CSS.", link: "#" },
   { title: "E-Commerce App", description: "An online store with payment integration.", link: "#" }

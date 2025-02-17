@@ -1,0 +1,65 @@
+/* General body styling */
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+/* Header Styles */
+.header-container {
+  background-color: #1976d2; /* MUI Primary Color */
+  padding: 16px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Button Styling */
+.nav-button {
+  color: white !important;
+  text-transform: none;
+  font-size: 16px;
+}
+
+/* Home Page Styling */
+.home-container {
+  text-align: center;
+  padding: 40px 0;
+}
+
+.home-image {
+  width: 50px;
+  height: auto;
+  border-radius: 4%;
+  margin-top: 20px;
+}
+
+.home-image img {
+  width: 100%;
+  height: auto;
+}
+
+
+
+/* About Section */
+.about-section {
+  text-align: left;
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background: white;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+/* Footer */
+.footer-container {
+  text-align: bottom;
+  padding: 16px;
+  background-color: #1976d2;
+  color: white;
+}
+
+
