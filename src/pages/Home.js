@@ -84,7 +84,7 @@ const Home = () => {
                   </Typography>
                 </Paper>
               </Grid2>
-              <Grid2 item size={{xs: 2, md: 2}}>
+              <Grid2 item size={{xs: 12, md: 3}}>
                 <Box component="img" 
                   src={sweden} 
                   alt="Tech Industry" 
@@ -103,7 +103,7 @@ const Home = () => {
                   </Typography>
                 </Paper>
               </Grid2>
-              <Grid2 item size={{xs: 2, md: 2}} justifyContent="flex-end">
+              <Grid2 item size={{xs: 12, md: 3}} justifyContent="flex-end">
                 <Box component="img" 
                   src={houston}
                   alt="Tech Industry" 
@@ -120,7 +120,7 @@ const Home = () => {
                   </Typography>
                 </Paper>
               </Grid2>
-              <Grid2 item size={{xs: 2, md: 2}}>
+              <Grid2 item size={{xs: 12, md: 3}}>
                 <Box component="img" 
                   src={coding} 
                   alt="Tech Industry" 
@@ -139,7 +139,7 @@ const Home = () => {
                   </Typography>
                 </Paper>
               </Grid2>
-              <Grid2 item size={{xs: 2, md: 2}}>
+              <Grid2 item size={{xs: 12, md: 3}}>
                 <Box component="img" 
                   src="https://i.pinimg.com/736x/a0/2c/4f/a02c4f6974df64b110bce07fb1f34f64.jpg" 
                   alt="Sweden" 
