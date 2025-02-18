@@ -44,7 +44,7 @@ const Home = () => {
           <Grid2 container spacing={1} alignItems="center" sx={{ mt: 2 }}>
           
             {/* First Section: Left - Text, Right - Image */}
-            <Grid2 container spacing={1} alignItems="center" sx={{ mt: 0, ml: 10 }}>
+            <Grid2 container spacing={1}  alignItems="center" sx={{ mt: 0, ml: 0 }}>
               <Grid2 item size={{xs: 12, md: 9}}>
                 <Paper className="about-text-box">
                   <Typography variant="body1" color="text.secondary">
@@ -63,7 +63,7 @@ const Home = () => {
             </Grid2>
   
             {/* Second Section: Left - Image, Right - Text */}
-            <Grid2 container spacing={1} alignItems="center" sx={{ mt: 2 }}>
+            <Grid2 container spacing={1} alignItems="center" sx={{ mt: 2, ml: 0 }}>
               <Grid2 item size={{xs: 2, md: 2}}>
                 <Box component="img" 
                   src="https://i.pinimg.com/736x/a0/2c/4f/a02c4f6974df64b110bce07fb1f34f64.jpg" 
@@ -81,7 +81,7 @@ const Home = () => {
             </Grid2>
   
             {/* Third Section: Left - Text, Right - Image */}
-            <Grid2 container spacing={1} alignItems="center" sx={{ mt: 0, ml: 10 }}>
+            <Grid2 container spacing={1} alignItems="center" sx={{ mt: 0, ml: 0 }}>
               <Grid2 item size={{xs: 12, md: 9}}>
                 <Paper className="about-text-box">
                   <Typography variant="body1" color="text.secondary">
