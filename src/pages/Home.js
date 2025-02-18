@@ -41,58 +41,64 @@ const Home = () => {
         <Box className="about-section">
           
           
-          <Grid2 container spacing={2} alignItems="center" sx={{ mt: 2 }}>
+          <Grid2 container spacing={1} alignItems="center" sx={{ mt: 2 }}>
           
             {/* First Section: Left - Text, Right - Image */}
-            <Grid2 item size={{xs: 12, md: 9}}>
-              <Paper className="about-text-box">
-                <Typography variant="body1" color="text.secondary">
-                  Originally from Seville, Spain, I have lived across Sweden and Portugal,
-                  embracing diverse cultures and experiences. Now settled in 🇺🇸 Houston, Texas,
-                  I am actively pursuing my passion for software development and technology.
-                </Typography>
-              </Paper>
-            </Grid2>
-            <Grid2 item size={{xs: 2, md: 2}} alignItems={{xs: "right", md: "flex-end"}}>
-              <Box component="img" 
-                src="https://i.pinimg.com/736x/a0/2c/4f/a02c4f6974df64b110bce07fb1f34f64.jpg" 
-                alt="Sweden" 
-                className="about-image" />
+            <Grid2 container spacing={1} alignItems="center" sx={{ mt: 0, ml: 10 }}>
+              <Grid2 item size={{xs: 12, md: 9}}>
+                <Paper className="about-text-box">
+                  <Typography variant="body1" color="text.secondary">
+                    Originally from Seville, Spain, I have lived across Sweden and Portugal,
+                    embracing diverse cultures and experiences. Now settled in 🇺🇸 Houston, Texas,
+                    I am actively pursuing my passion for software development and technology.
+                  </Typography>
+                </Paper>
+              </Grid2>
+              <Grid2 item size={{xs: 2, md: 2}} alignItems={{xs: "right", md: "flex-end"}}>
+                <Box component="img" 
+                  src="https://i.pinimg.com/736x/a0/2c/4f/a02c4f6974df64b110bce07fb1f34f64.jpg" 
+                  alt="Sweden" 
+                  className="about-image" />
+              </Grid2>
             </Grid2>
   
             {/* Second Section: Left - Image, Right - Text */}
-            <Grid2 item size={{xs: 2, md: 2}}>
-              <Box component="img" 
-                src="https://i.pinimg.com/736x/a0/2c/4f/a02c4f6974df64b110bce07fb1f34f64.jpg" 
-                alt="Tech Industry" 
-                className="about-image" />
-            </Grid2>
-            <Grid2 item size={{xs: 12, md: 9}} alignItems={{xs: "right", md: "right"}}>
-              <Paper className="about-text-box">
-                <Typography variant="body1" color="text.secondary">
-                  With a background in full-stack development, automation, and IT support,
-                  I bring a unique blend of problem-solving skills, creativity, and technical expertise.
-                </Typography>
-              </Paper>
+            <Grid2 container spacing={1} alignItems="center" sx={{ mt: 2 }}>
+              <Grid2 item size={{xs: 2, md: 2}}>
+                <Box component="img" 
+                  src="https://i.pinimg.com/736x/a0/2c/4f/a02c4f6974df64b110bce07fb1f34f64.jpg" 
+                  alt="Tech Industry" 
+                  className="about-image" />
+              </Grid2>
+              <Grid2 item size={{xs: 12, md: 9}} alignItems={{xs: "right", md: "right"}}>
+                <Paper className="about-text-box">
+                  <Typography variant="body1" color="text.secondary">
+                    With a background in full-stack development, automation, and IT support,
+                    I bring a unique blend of problem-solving skills, creativity, and technical expertise.
+                  </Typography>
+                </Paper>
+              </Grid2>
             </Grid2>
   
             {/* Third Section: Left - Text, Right - Image */}
-            
-            <Grid2 item xs={12} md={9}>
+            <Grid2 container spacing={1} alignItems="center" sx={{ mt: 0, ml: 10 }}>
+              <Grid2 item size={{xs: 12, md: 9}}>
+                <Paper className="about-text-box">
+                  <Typography variant="body1" color="text.secondary">
+                    I am fluent in English, Spanish, Swedish, and Portuguese,
+                    allowing me to collaborate in diverse global teams.
+                    My goal is to create impactful digital solutions while continuously learning and growing in the tech industry.
+                  </Typography>
+                </Paper>
+              </Grid2>
               <Grid2 item size={{xs: 2, md: 2}} alignItems={{xs: "right", md: "flex-end"}}>
-              <Box component="img" 
-                src="https://i.pinimg.com/736x/a0/2c/4f/a02c4f6974df64b110bce07fb1f34f64.jpg" 
-                alt="Multilingual Collaboration" 
-                className="about-image" />
+                <Box component="img" 
+                  src="https://i.pinimg.com/736x/a0/2c/4f/a02c4f6974df64b110bce07fb1f34f64.jpg" 
+                  alt="Sweden" 
+                  className="about-image" />
+              </Grid2>
             </Grid2>
-              <Paper className="about-text-box">
-                <Typography variant="body1" color="text.secondary">
-                  I am fluent in English, Spanish, Swedish, and Portuguese,
-                  allowing me to collaborate in diverse global teams.
-                  My goal is to create impactful digital solutions while continuously learning and growing in the tech industry.
-                </Typography>
-              </Paper>
-            </Grid2>
+            
             
           </Grid2>
         </Box>
