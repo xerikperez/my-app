@@ -3,6 +3,7 @@ import { Container, Typography, Box, Grid2, Paper, Button } from "@mui/material"
 import { Link } from "react-router-dom";
 import "../Styles/index.css";
 import "../Styles/Home.css";
+import profilepic from "../assets/profile.jpg";
 
 const projects = [
     {
@@ -27,21 +28,42 @@ const projects = [
 const Home = () => {
     return (
       <Container className="home-container">
+        
         {/* Introduction */}
-        <Typography variant="h3" fontWeight="bold">
-          Hi, I'm Erik Caceres Perez!
-        </Typography>
-        <Typography variant="h6" color="text.secondary" sx={{ mt: 2 }}>
-          A software developer and IT specialist passionate about building innovative solutions and solving technical challenges.
-        </Typography>
-        <Typography variant="h4" fontWeight="bold" sx={{ mt: 5, textAlign: "left"  }}>
-            About Me
-          </Typography>
+      
+        
+        <Grid2 container spacing={1}  sx={{alignItems: "center"}} maxWidth={840}>
+          <Grid2  sx={{ mt: 1 }} size={{xs: 12, md: 8}}>
+            <Typography variant="h3" fontWeight="bold">
+              Hi, I'm Erik Caceres Perez!
+            </Typography>
+            <Typography variant="h6" color="white">
+              A software developer and IT specialist passionate about building innovative solutions and solving technical challenges.
+            </Typography>
+            
+          </Grid2>
+          <Grid2  sx={{ mt: 1, ml:5 }} size={{xs: 12, md: 3}}>
+            <Box component="img" src={profilepic} alt="Erik" className="profile-image" />
+          </Grid2>
+
+          <Typography variant="h4" fontWeight="bold">
+              About Me
+            </Typography>
+            <Typography variant="body1" color="white">
+              I am a full-stack developer with a background in IT support and automation. 
+              I have experience working with various technologies, including JavaScript, React, Node.js, and Python. 
+              I am passionate about creating impactful digital solutions and collaborating with diverse teams to drive innovation and growth.
+            </Typography>
+        </Grid2>
+
+        
+
         {/* About Me Section */}
+
         <Box className="about-section">
           
           
-          <Grid2 container spacing={1} alignItems="center" sx={{ mt: 2 }}>
+          <Grid2 container spacing={1} alignItems="center" sx={{ mt: 0 }}>
           
             {/* First Section: Left - Text, Right - Image */}
             <Grid2 container spacing={1}  alignItems="center" sx={{ mt: 0, ml: 0 }}>
