@@ -78,8 +78,6 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
 This portfolio serves as a personal brand hub where recruiters and clients can explore my projects, skills, and journey.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
