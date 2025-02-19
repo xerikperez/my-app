@@ -133,7 +133,7 @@ Here's a blank template to get started. To avoid retyping too much info, do a se
 <!-- CONTACT -->
 ## Contact
 
-Your Name -  - xerikperez@gmail.com
+Erik Perez -  - xerikperez@gmail.com
 
 Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
 
