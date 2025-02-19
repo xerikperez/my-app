@@ -30,10 +30,10 @@
     <img src="logo.png" alt="Logo" width="80" height="80">
   </a>
 
-<h3 align="center">project_title</h3>
+<h3 align="center">Portfolio Website</h3>
 
   <p align="center">
-    project_description
+    Visit my portfolio website @ erikcaceresperez.me
     <br />
     <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
     <br />
@@ -80,7 +80,7 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-Here's a blank template to get started. To avoid retyping too much info, do a search and replace with your text editor for the following: `xerikperez`, `my-app`, `twitter_handle`, `erikpérez`, `gmail.com`, `xerikperez`, `Portfolio Website`, `This portfolio serves as a personal brand hub <br> where recruiters and clients can explore my projects, skills, and journey.`, `project_license`
+This portfolio serves as a personal brand hub where recruiters and clients can explore my projects, skills, and journey.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
